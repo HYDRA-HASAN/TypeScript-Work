@@ -1,9 +1,10 @@
 {
-  "name": "simple-command-line-calculator",
+  "name": "@hydra-hasan/simple-calculator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
