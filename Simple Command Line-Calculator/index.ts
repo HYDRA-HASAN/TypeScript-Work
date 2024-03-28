@@ -17,7 +17,8 @@ const answer = await inquirer.prompt([
         type: 'list',
         name: 'operation',
         message: 'Choose an operation',
-        choices: ['Addition', 'Subtraction', 'Multiplication', 'Division']}
+        choices: ['Addition', 'Subtraction', 'Multiplication', 'Division']
+    }
 ]);
 
 let result: number;
